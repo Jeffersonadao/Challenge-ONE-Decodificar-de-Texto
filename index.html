@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Challenge ONE - Criptografando Textos</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body class="fundo">
+		<header class="cabecalho">
+				<img src="logo.png">
+				<h1>Decifra-me ou te Devoro...</h1>
+		</header>
+		<main>
+			<section class="principal">
+				<section class="entrada-texto">
+					<textarea  placeholder="Digite sua mensagem" id="mensagem" cols="30" rows="15"></textarea>
+					<p>Apenas letras minúsculas e sem acento</p>
+				</section>
+
+				<section id="saida-texto">
+					<img src="imagem.jpg" class="imagem">
+					<h1>Nenhuma mensagem encontrada</h1>
+					<span>Digite a mensagem que quer critografar ou descriptografar</span>
+				</section>
+			</section>
+
+			<section class="botoes">
+				<section class="buttons">
+					<button onclick="criptografar()" class="botao-criptografar">Criptografar</button>
+					<button onclick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+				</section>
+			</section>
+
+		</main>
+
+		<footer class="rodape">
+			<section class="icones">
+				<a href="https://github.com/Jeffersonadao"><img src="github.svg"></a>
+				<a href="https://www.linkedin.com/in/jefferson-ferreira-desenvolvedor/"><img src="linkedin.svg"></a>				
+			</section>
+			<section class="assinatura">
+				<h2>Jefferson Ferreira - Software Developer</h2>
+			</section>
+			
+
+				
+		</footer>
+
+		<script src="javascript.js"></script>
+	</body>
+</html>

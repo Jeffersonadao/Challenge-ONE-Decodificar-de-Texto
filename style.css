@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+	background: #F3F5FC;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Sedgwick Ave', sans-serif;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content:space-between;
+	padding: 2%;
+	background: linear-gradient(#581D22,#F3F5FC);
+}
+
+.cabecalho img {
+	height: 30px;
+}
+
+.cabecalho h1 {
+	color: #0A3871;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 30px;
+	margin-right: 500px;
+	text-align: center;
+}
+
+.principal {
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 0 0 4%;
+}
+
+.principal .entrada-texto {
+	width: 300px;
+	height: 250px;
+	margin-bottom: 100px;
+}
+
+.principal p {
+	
+	font-size:13px;
+	color: darkblue;
+	margin-left: 15px;
+	padding-top: 80px;
+}
+
+.principal p:before {
+	content: "⚠";
+	padding: 7px;
+	width: 40px;
+}
+
+.principal .entrada-texto textarea {
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+
+#mensagem {
+	width: 250px;
+	height: 140;
+	font-size: 18px;
+	color:#0A3871;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	outline: 0;
+	padding: 8px;
+	resize: none;
+
+}
+
+#saida-texto {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid white;
+	border-radius: 20px;
+	width: 250px;
+	height: 440px;
+	margin-right: 3%;
+	background: white;
+}
+
+#saida-texto img {
+	width: 200px;
+	margin-left: 15px;
+}
+
+#saida-texto h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 20px;
+	color:#0A3871 ;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#saida-texto span {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 18px;
+	text-align: center;
+	color:#0A3871 ;
+	margin-top: 50px;
+}
+
+.buttons button {
+	border: 1px solid #0A3871;
+	border-radius: 10px;
+	text-decoration: none;
+	width:250px;
+	height:30px;
+	margin-left: 4%;
+	cursor: pointer;
+}
+
+.botao-criptografar {
+	background: darkblue;
+	color: white;
+	font-size: 20px;
+}
+
+.botao-descriptografar {
+	background: #D8DFE8;
+	color: darkblue;
+	font-size: 20px;
+}
+.botao-copiar {
+	border: 1px solid #0A3871;
+	border-radius: 10px;
+	text-decoration: none;
+	width:230px;
+	height:35px;
+	margin-bottom: 10%;
+	margin-left: 3%;
+	cursor: pointer;
+	background:#581D22;
+	margin-top: 300px;
+	font-size: 20px;
+	color: white;
+}
+
+.buttons button:hover {
+	border: 5px solid red;
+	transition: 0.8s all;
+	transform: scale(1.2);
+
+}
+
+.rodape {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2%;
+	margin-top: 15px;
+	background: linear-gradient(#F3F5FC,#581D22);
+}
+
+.rodape img {
+	width: 30px;
+	height: 30px;
+}
+
+.rodape h2 {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.rodape img:hover {
+	transform: scale(1.4);
+	transition: 0.8s all;
+
+}
+
