@@ -153,6 +153,7 @@ body {
 
 .rodape {
 	display: flex;
+	column-gap: 25px;
 	flex-direction: column;
 	align-items: center;
 	padding: 2%;
@@ -163,7 +164,10 @@ body {
 .rodape img {
 	width: 30px;
 	height: 30px;
+	padding: 5px;
+
 }
+
 
 .rodape h2 {
 	font-size:20px;
@@ -171,8 +175,22 @@ body {
 }
 
 .rodape img:hover {
-	transform: scale(1.4);
-	transition: 0.8s all;
+	animation: shake 0.5s;
+	transform: scale(1.5);
 
 }
 
+@keyframes shake {
+	10% {
+		transform: rotate(15deg);
+	}
+	20% {
+		transform: rotate(-15deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+}
