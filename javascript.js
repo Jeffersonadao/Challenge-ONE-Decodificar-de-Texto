@@ -11,7 +11,7 @@ entradaTexto.addEventListener("keypress", function(e) {
 function caracteres (e) {
 	const caractere = String.fromCharCode(e.keyCode);
 
-	const pattern = '[a-z]';
+	const pattern = '[a-z ]';
 
 	if(caractere.match(pattern)) {
 		return true;
