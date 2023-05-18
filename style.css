@@ -194,3 +194,14 @@ body {
 		transform: rotate(-15deg);
 	}
 }
+
+.cabecalho h1:hover {
+	color: red;
+	transition: 0.8s all;
+
+}
+
+.principal p:hover {
+	color: red ;
+	transition: 0.8s all;
+}
